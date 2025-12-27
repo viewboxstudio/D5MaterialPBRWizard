@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>MaterialPBRWizard</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\D5MaterialPBRWizard.Core\D5MaterialPBRWizard.Core.csproj" />
+    <ProjectReference Include="..\D5MaterialPBRWizard.D5SDK\D5MaterialPBRWizard.D5SDK.csproj" />
+  </ItemGroup>
+</Project>
